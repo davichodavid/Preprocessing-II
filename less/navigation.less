@@ -8,6 +8,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media @mobile {
+      flex-direction: column;
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+    }
   }
 
   a {
