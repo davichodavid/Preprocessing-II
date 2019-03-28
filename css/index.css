@@ -193,6 +193,16 @@ header .nav {
   justify-content: space-between;
 }
 @media (max-width: 500px) {
+  header .nav nav {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+  header .nav nav a {
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
   header .nav {
     flex-direction: column;
   }

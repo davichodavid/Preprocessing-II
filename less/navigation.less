@@ -9,6 +9,18 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    nav {
+      @media @mobile {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+
+        a {
+          margin: 0;
+        }
+      }
+    }
+
     @media @mobile {
       flex-direction: column;
 
