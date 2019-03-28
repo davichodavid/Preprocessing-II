@@ -184,6 +184,13 @@ header a {
   color: black;
   margin-right: 20px;
 }
+.jumbotron h2 {
+  margin-top: 20px;
+}
+.jumbotron p {
+  padding: 20px 0;
+  border-bottom: 4px dotted lightgray;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
