@@ -1,1 +1,11 @@
 // Mixins in here
+.anchor(@f-size: 1.4rem, @t-decor: none, @color: black) {
+  font-size: @f-size;
+  text-decoration: @t-decor;
+  color: @color;
+}
+
+.space-border() {
+  margin: 40px 0;
+  border-bottom: 1px dotted lightgrey;
+}
