@@ -1,9 +1,9 @@
 .btn {
   color: white;
   background-color: teal;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 85%;
-  padding: 7px 0;
+  padding: 10px 0;
   font-size: 1.6rem;
   text-align: center;
 }
@@ -251,6 +251,10 @@ header a {
   }
   .home .content-section .img-content {
     width: 100%;
+    padding-left: 0;
+  }
+  .home .content-section .img-content img {
+    width: 100%;
   }
 }
 .home .inverse-content {
@@ -305,5 +309,7 @@ header a {
   }
   .home .content-pick .btn {
     width: 100%;
+    padding: 10px;
+    background-color: #17A2B8;
   }
 }
